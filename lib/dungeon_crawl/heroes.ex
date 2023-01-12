@@ -2,7 +2,7 @@ defmodule DungeonCrawl.Heroes do
   alias DungeonCrawl.Character
 
   def all,
-    do: {
+    do: [
       %Character{
         name: "Knight",
         description: "Knight has strong defense and consistent damage.",
@@ -27,5 +27,5 @@ defmodule DungeonCrawl.Heroes do
         damage_range: 1..12,
         attack_description: "a dagger"
       }
-    }
+    ]
 end
